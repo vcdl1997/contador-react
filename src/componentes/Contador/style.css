@@ -1,0 +1,50 @@
+#contador{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 10px;
+    box-shadow: 9px 9px 5px 2px rgba(0,0,0,0.58);
+    -webkit-box-shadow: 9px 9px 5px 2px rgba(0,0,0,0.58);
+    -moz-box-shadow: 9px 9px 5px 2px rgba(0,0,0,0.58);
+}
+
+#contador p{
+    padding: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#contador button{
+    width: 60%;
+    padding: 10px;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    transition: .5s;
+}
+
+#contador button:hover{
+    transition: .5s;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: black;
+    cursor: pointer;
+}
+
+#contador h1{
+    padding-bottom: 15px;
+}
